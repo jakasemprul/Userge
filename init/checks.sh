@@ -2,7 +2,7 @@
 #
 # Copyright (C) 2020 by UsergeTeam@Github, < https://github.com/UsergeTeam >.
 #
-# This file is part of < https://github.com/UsergeTeam/Userge > project,
+# This file is part of < https://github.com/jakasemprul/Userge > project,
 # and is released under the "GNU v3.0 License Agreement".
 # Please see < https://github.com/uaudith/Userge/blob/master/LICENSE >
 #
@@ -48,13 +48,13 @@ _checkDefaultVars() {
     replyLastMessage "Checking Default ENV Vars ..."
     declare -rA def_vals=(
         [WORKERS]=0
-        [PREFERRED_LANGUAGE]="en"
+        [PREFERRED_LANGUAGE]="id"
         [DOWN_PATH]="downloads"
         [UPSTREAM_REMOTE]="upstream"
-        [UPSTREAM_REPO]="https://github.com/UsergeTeam/Userge"
-        [LOAD_UNOFFICIAL_PLUGINS]=false
+        [UPSTREAM_REPO]="https://github.com/jakasemprul/Userge"
+        [LOAD_UNOFFICIAL_PLUGINS]=true
         [G_DRIVE_IS_TD]=true
-        [CMD_TRIGGER]="."
+        [CMD_TRIGGER]="'"
         [SUDO_TRIGGER]="!"
         [FINISHED_PROGRESS_STR]="█"
         [UNFINISHED_PROGRESS_STR]="░"
