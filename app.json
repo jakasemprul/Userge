@@ -8,7 +8,7 @@
         "pluggable",
         "userbot"
     ],
-    "repository": "https://github.com/UsergeTeam/Userge",
+    "repository": "https://github.com/jakasemprul/Userge",
     "website": "https://github.com/Userge",
     "success_url": "https://t.me/theUserge",
     "env": {
